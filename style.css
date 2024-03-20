@@ -1,0 +1,58 @@
+* {
+  padding: 0px;
+  margin: 0px;
+}
+
+section {
+  background-color: lightcyan;
+  height: 100vh;
+  /*positioning*/
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.container {
+  height: 70%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+h1,
+h2 {
+  color: cornflowerblue;
+  text-align: center;
+}
+
+h1 {
+  font-size: 80px;
+}
+
+h2 {
+  font-size: 48px;
+}
+
+address,
+a,
+p {
+  font-size: 24px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: gray;
+  text-decoration: none;
+}
+
+.company-contact {
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+}
+
+.company-phone-email {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
